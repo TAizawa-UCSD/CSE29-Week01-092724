@@ -3,3 +3,9 @@ C will only implicitly insert a 0 byte at the end of STRING literals.
 hi array and helloeveryone array are stoed in adhacent memoty locations, and neither is null-terminated (no 0 at the end).
 
 //bad issues that cause shutting down softwares usually involves memory bugs.
+
+ASCII of 'A' = 65, ASCII of 'a' = 97.
+Converting uppercase to lowercase can be done by adding 32 or flipping the 5th bit.
+There are bitwise operators for that: (c | 0b00100000)
+  bitwise or(|) perform the operation on each bit of the inputs
+  bitwise and(&)
