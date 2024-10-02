@@ -1,0 +1,5 @@
+char arrays do not have a 0 at the end!!!!
+C will only implicitly insert a 0 byte at the end of STRING literals.
+hi array and helloeveryone array are stoed in adhacent memoty locations, and neither is null-terminated (no 0 at the end).
+
+//bad issues that cause shutting down softwares usually involves memory bugs.
